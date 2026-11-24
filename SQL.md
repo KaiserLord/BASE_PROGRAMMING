@@ -89,3 +89,15 @@
   UNION
   SELECT Country FROM Suppliers;
   ```
+### 6.SUBSTRING
+- Cú pháp:
+  ```
+  SUBSTRING(string, start, length)
+  Hoặc
+  SUBSTRING(string FROM start FOR length)
+  ```
+- Ví dụ:
+  ```
+  -- Lấy 6 ký tự đầu từ vị trí 1 -> kết quả: 'PAVIET'
+  SELECT SUBSTRING('PAVIETNAM', 1, 6);
+  ```
