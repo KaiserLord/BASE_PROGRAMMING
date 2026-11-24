@@ -101,3 +101,15 @@
   -- Lấy 6 ký tự đầu từ vị trí 1 -> kết quả: 'PAVIET'
   SELECT SUBSTRING('PAVIETNAM', 1, 6);
   ```
+### 7. INSERT
+- Cú pháp:
+  ```
+  INSERT INTO ten_bang (cot1, cot2, cot3)
+  VALUES (gia_tri_1, gia_tri_2, gia_tri_3);
+  ```
+- Ví dụ:
+  ```
+  INSERT INTO nhan_vien (ho_ten, luong)
+  VALUES ('Ngô Thị Lan', 12000000);
+  ```
+- 
