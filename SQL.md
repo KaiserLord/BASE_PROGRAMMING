@@ -112,4 +112,21 @@
   INSERT INTO nhan_vien (ho_ten, luong)
   VALUES ('Ngô Thị Lan', 12000000);
   ```
-- 
+### 8. CASE
+- CASE trong SQL có hai loại cú pháp:
+  - Cú pháp 1:
+    ```
+    CASE column_name
+          WHEN value1 THEN result1
+          WHEN value2 THEN result2
+          ELSE result_default
+    END
+    ```
+  - Cú pháp 2:
+    ```
+    CASE
+        WHEN condition1 THEN result1
+        WHEN condition2 THEN result2
+        ELSE result_default
+    END
+    ```
